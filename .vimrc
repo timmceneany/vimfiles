@@ -32,7 +32,9 @@ autocmd BufWritePre * %s/\s\+$//e
 set history=10000
 
 " Color Scheme
-colorscheme peachpuff
+set bg=dark
+colorscheme gruvbox
+syntax enable
 
 " Better tab settings
 set sts=2
@@ -71,7 +73,7 @@ set wrap
 set linebreak
 
 " no beeps
-set visualbell
+set novisualbell
 
 " Global ignores
 set wildignore+=tmp

@@ -60,3 +60,7 @@ fetch_repo https://github.com/tpope/vim-fugitive.git
 
 # PyDoc support
 fetch_repo https://github.com/fs111/pydoc.vim
+
+# Gruvbox colorscheme
+fetch_repo https://github.com/morhetz/gruvbox.git
+
